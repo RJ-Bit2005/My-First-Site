@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", serif;
 }
 
 nav {
@@ -37,7 +37,7 @@ a {
 
 header {
     background-color: pink;
-    height: 70vx;
+    height: calc(100vh - 70px);
     padding: 24px;
     display: flex;
     align-items: center;
@@ -71,7 +71,8 @@ button {
 }
 
 #about {
-    padding: 48px 0;
+    padding: 48px;
+    background-color: #05c7cf;
 }
 
 h2 {
@@ -88,8 +89,21 @@ h2 {
 
 .about__img--wrapper {
     width: 40%;
+    padding: 0 24px;
 }
 
 img {
     width: 100%;
 }
+
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 24px;
+}
+
+.section__description--paragraph {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
