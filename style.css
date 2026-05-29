@@ -65,14 +65,27 @@ button {
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#about {
+#About,
+#Discord,
+#Contact,
+footer {
     padding: 48px;
-    background-color: #05c7cf;
+}
+
+/*
+
+About
+
+*/
+
+#About {
+    background-color: lightsteelblue;
 }
 
 h2 {
@@ -107,3 +120,63 @@ img {
     margin-bottom: 24px;
 }
 
+/*
+
+Discord
+
+*/
+
+#Discord {
+    padding: 48px;
+    background-color: #89D995;
+}
+
+/*
+
+Contact
+
+*/
+
+#Contact {
+    background-color: #EDEC9D;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+/*
+
+Footer
+
+*/
+
+footer {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding: 0 16px;
+}

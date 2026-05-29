@@ -12,15 +12,15 @@
         <nav>
             <img src="./assets/FES.svg" class="logo" alt="">
             <ul>
-                <li><a href="About">About</a></li>
-                <li><a href="Discord">Discord</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Discord">Discord</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
        
         <header>
          <div class="row">
-
+            
             <div>
                 <h1>Best place to learn frontend</h1>
                 <p class="subheader">Go from being an absolute beginner to a pro with a simplified process</p>
@@ -29,6 +29,7 @@
             <figure>
                 <img src="./assets/laptop.png" alt="Home Page Image">
             </figure>
+       
         </div>
         </header>
     </section>
@@ -36,46 +37,50 @@
     <main>
         <section id="About">  
             <h2>About</h2>
+        <div class="row">
             <div class="section__description">
             <div class="section__description--wrapper">
-            <p class="section__description--paragraph">It's a place</p>    
+            <p class="section__description--paragraph">At Frontend Simplified, we believe that breaking into the tech industry shouldn't be a complicated, gate-kept mystery. We are an intensive, practical training platform designed to take aspiring creators and turn them into job-ready frontend developers. By stripping away the fluff and academic jargon of traditional education, our curriculum focuses entirely on the real-world skills modern tech companies actually demand—starting with a rock-solid mastery of HTML, CSS, and responsive design, and scaling up to advanced software engineering principles.</p>    
             </div>
             <figure class="about__img--wrapper">
                 <img src="./assets/about.jpg" alt="">
             </figure>
+            </div>
         </div>
         </section>
        
         <section id="Discord">
             <h2>Discord</h2>
-            <div>
-                <p>This is the discord of the place</p>
-            </div>
-            <figure>
+        <div class="row">
+            <div class="section__description">
+           <figure class="about__img--wrapper">
                 <img src="./assets/discord.png" alt="">
             </figure>
+                <div class="section__description--wrapper">
+                <p class="section__description--paragraph">Welcome to the official Frontend Simplified Discord server! This is the central hub for students and developers who are serious about cutting through the noise and mastering the core fundamentals of frontend web development. We skip the academic fluff and focus entirely on practical, hands-on engineering—helping you build a rock-solid foundation in modern web standards from day one.</p>
+            </div>
+        </div>
         </section>
 
         <section id="Contact">
             <h2>Contact</h2>
             <form action="">
                 <span>Email</span>
-                <input type="text" placeholder="jerry@noname.com">
+                <input type="email" placeholder="jerry@noname.com">
                 <span>Message</span>
                 <textarea type="text" placeholder="Message here"></textarea>
+                <button>Contact Us!</button>
             </form>
+            </div>
         </section>
     </main>
 
     <footer>
-        <img src="./assets/FES.svg" alt="">
-        <div>
-            <ol>
-                <li>About</li>
-                <li>Discord</li>
-                <li>Contact</li>
-                <li>courses</li>
-            </ol>
+        <img class="footer__logo" src="./assets/FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#About">About</a>
+            <a class="footer__link" href="#Discord">Discord</a>
+            <a class="footer__link" href="#Contact">Contact</a>
         </div>
         <p>Copyright Me</p>
     </footer>
